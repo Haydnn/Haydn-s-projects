@@ -1,0 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 1em 10%;
+	background-image: url(.../images/background.gif);
+	background-attachment: fixed;  //背景不随文档滚动
+	background-position: top left;
+	background-repeat: repeat-x;//背景水平方向平铺
+	max-width: 80em;
+}
+header{
+	background-image: url(.../images);
+}
