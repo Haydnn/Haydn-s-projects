@@ -1,0 +1,30 @@
+body,dl,dt,li,h1,h2,h3,h4,h5,h6,div,input,form,a,p,textarea{
+	margin:0;
+	padding: 0;  //可以用通配符，但不是所有的标签都需要去默认样式
+	font-family: ;
+}
+
+ol,ul,li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+}
+
+img{
+	display: block;
+	border: none;
+}
+
+.clearfloat{ //清楚浮动
+	zoom: 1;
+}
+.clearfloat:after{  //清楚伪类浮动
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height:0;
+}
